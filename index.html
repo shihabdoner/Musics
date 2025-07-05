@@ -4,278 +4,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&family=Press+Start+2P&display=swap"
         rel="stylesheet">
-    <title>Music Playlist.Shihab</title>
+    <title>My Music Playlist</title>
 
 </head>
 
 <body>
 
-    <h1 id="Fronttext"> Things that I often listen to</h1>
-
-    <div class="playlist">
-        <!-- Track 1 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/6nRGPf5tpeJtKpXZO5cgIT?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
+    <h1 id="Fronttext"> Things that I often listen to </h1>
+    <!-- Parent Button Division -->
+    <div id="ParentButtons">
+        <button onclick="toggleSection('SpotifyDIV')">Direct Spotify Location</button>
+        <button onclick="toggleSection('YouTubeDIV')">YouTube Location</button>
+        <button onclick="toggleSection('OtherLinksDIV')">Other Links</button>
+    </div>
+    <div id="SpotifyDIV" style="display:none;" class="toggle-section">
+        <div class="playlist">
+            <!-- Track 1 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/6nRGPf5tpeJtKpXZO5cgIT?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 2 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/4y65QrOxJvckOr8ePyiiVQ?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 3 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/1ZdhOMWyFR8Iv9eylMGYg2?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 4 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/7tpRgru0h8B4eCvdBegLTA?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 5 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/3SdTKo2uVsxFblQjpScoHy?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 6 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/2HqSND303T7sT0wOPj3K3C?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 7 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0aK2O1HdoOVmO4hPkRgXoi?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 8 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/3xeqwaUWpJI8j5gmCaHxt8?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 9 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/6bdpj89aYEBjhpsenXAsmO?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 10 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/49HGRWy7u4dNUHjzPUhExF?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 11 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0p83RJy9EZ0hlg82xcXH7f?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 12 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/3bPuKtywbjQHcjYyKrKDk2?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 13 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/4KYO2hnz2vWH0JHJuWypAf?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 14 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/66EOdKkzuonSLBXOrActDD?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 15 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/7yCF65vpc7sUwPjftI0iFb?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 16 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/3bmsaFp11I9pbicxzlStf3?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 17 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0UZLaEOSIc5kg0cc7eszqC?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 18 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/1Xi84slp6FryDSCbzq4UCD?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 19 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/42XeicjBjdyu7boDDtHkvu?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 20 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0YTM7bCx451c6LQbkddy4Q?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 21 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/5VWVVSABdgccboSdrKGiZH?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 22 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/2u54HNQamwFuOMLSuhSRom?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 23 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/1e8J3XClxZbFmvIHLI8CE4?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 24 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/6YKCEtfZXXyionWJPtT5jb?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 25 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/6wH3AP7b01vpzKYRJhreMy?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
+            <!-- Track 25 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/6bvZRLLkBKkmgpBJTTj3QK?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 26 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/6a0gRYXKK0YU69cXaB2RrK?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 27 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/63irPUP3xB74fHdw1Aw9zR?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 28 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/2qSkIjg1o9h3YT9RAgYN75?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 29 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/1snWlbcbgQpJfknoI30DWG?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 30 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0fCQRUbk8LIQTdQYGNtGyv?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 31 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0P3F6xMn3R1Ja8hjJ1HBTO?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 32 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/2LcXJP95e4HKydTZ2mYfrx?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 33 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/1scGwkyXNCl19wrBDhnAWg?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div><!-- Track 34 -->
+            <div class="track-card">
+                <iframe class="spotify-embed"
+                    src="https://open.spotify.com/embed/track/0rxEPf4Y6uBmV3hkrV340a?utm_source=generator"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
         </div>
-        <!-- Track 2 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/4y65QrOxJvckOr8ePyiiVQ?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 3 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/1ZdhOMWyFR8Iv9eylMGYg2?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 4 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/7tpRgru0h8B4eCvdBegLTA?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 5 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/3SdTKo2uVsxFblQjpScoHy?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 6 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/2HqSND303T7sT0wOPj3K3C?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 7 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0aK2O1HdoOVmO4hPkRgXoi?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 8 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/3xeqwaUWpJI8j5gmCaHxt8?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 9 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/6bdpj89aYEBjhpsenXAsmO?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 10 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/49HGRWy7u4dNUHjzPUhExF?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 11 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0p83RJy9EZ0hlg82xcXH7f?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 12 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/3bPuKtywbjQHcjYyKrKDk2?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 13 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/4KYO2hnz2vWH0JHJuWypAf?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 14 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/66EOdKkzuonSLBXOrActDD?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 15 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/7yCF65vpc7sUwPjftI0iFb?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 16 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/3bmsaFp11I9pbicxzlStf3?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 17 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0UZLaEOSIc5kg0cc7eszqC?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 18 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/1Xi84slp6FryDSCbzq4UCD?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 19 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/42XeicjBjdyu7boDDtHkvu?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 20 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0YTM7bCx451c6LQbkddy4Q?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 21 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/5VWVVSABdgccboSdrKGiZH?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 22 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/2u54HNQamwFuOMLSuhSRom?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 23 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/1e8J3XClxZbFmvIHLI8CE4?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 24 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/6YKCEtfZXXyionWJPtT5jb?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 25 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/6wH3AP7b01vpzKYRJhreMy?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 25 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/6bvZRLLkBKkmgpBJTTj3QK?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 26 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/6a0gRYXKK0YU69cXaB2RrK?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 27 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/63irPUP3xB74fHdw1Aw9zR?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 28 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/2qSkIjg1o9h3YT9RAgYN75?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 29 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/1snWlbcbgQpJfknoI30DWG?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 30 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0fCQRUbk8LIQTdQYGNtGyv?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 31 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0P3F6xMn3R1Ja8hjJ1HBTO?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 32 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/2LcXJP95e4HKydTZ2mYfrx?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 33 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/1scGwkyXNCl19wrBDhnAWg?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-        <!-- Track 34 -->
-        <div class="track-card">
-            <iframe class="spotify-embed"
-                src="https://open.spotify.com/embed/track/0rxEPf4Y6uBmV3hkrV340a?utm_source=generator"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
-            </iframe>
-        </div>
-
         <!-- You can add more tracks by copying this block and changing the Spotify link -->
         <!-- Example:
-    <div class="track-card">
-      <iframe 
+        <div class="track-card">
+        <iframe 
         class="spotify-embed"
         src="https://open.spotify.com/embed/track/TRACK_ID_HERE"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy">
-      </iframe>
-    </div>
-    -->
+        </iframe>
+        </div>
+        -->
 
     </div>
 
